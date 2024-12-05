@@ -1,0 +1,22 @@
+.margin {
+    margin: 20px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.ver-al {
+    vertical-align: middle;
+}
+
+.heading-h2 {
+    font-size: x-large;
+    font-weight: bold;
+    color: navy;
+}
+
+.btn {
+    background-color: brown;
+    color: white;
+}

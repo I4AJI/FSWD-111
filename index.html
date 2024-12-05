@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://canvascctb.s3.ca-central-1.amazonaws.com/account_1/attachments/95/CCTB_favicon.ico" />
+    <title>Login Firebase - Social Networks </title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/core.min.css">
+    <link rel="stylesheet" href="css/vendor_bundle.min.css">
+    <script src="https://www.gstatic.com/firebasejs/4.5.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+
+    <div class="section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bold">Welcome!</h1>
+                <p class="lead mb-5">Sign in to your CCTB account</p>
+                <!--Form-->
+                <div class="col-md-9 col-lg-6 mx-auto">
+                    <form action="#" method="post" class="p-4 p-md-5 card rounded-x1">
+                        <input required placeholder="email" type="email" id="email" name="email" class="form-control" />
+                        <input placeholder="Password" type="password" id="password" class="form-control" />
+                        <div class="col-12 col-md-12 mt-4">
+                            <button id="sign-in-traditional" type="button"
+                                class="form-control btn btn-primary w-100">Sign In
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <!--End Form-->
+
+                <!--Alternative-->
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 mt-4">
+                        <a id="sign-in-google" href="#" class="btn bg-googleplay mt-1 text-white w-50">Google</a>
+                    </div>
+                    <div class="col-lg-12 col-md-12 mt-4">
+                        <a id="sign-in-facebook" href="#" class="btn bg-facebook mt-1 text-white w-50">Facebook</a>
+                    </div>
+                    <div class="col-lg-12 col-md-12 mt-4">
+                        <div id="recaptcha-container"></div>
+                        <a id="sign-in-phone" href="#" class="btn bg-black mt-1 text-white w-50">Phone</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
